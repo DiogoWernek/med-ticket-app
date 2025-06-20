@@ -1,11 +1,15 @@
+import Wave from "react-wavify";
+import top from "./assets/Group 3.png";
+
+import React from "react";
+import WaveHeader from "./components/waveHeader";
+
 function App() {
   return (
-    <div className="flex h-screen items-center justify-center bg-primary">
-      <h1 className="text-3xl font-rubik font-bold text-white underline decoration-secondary">
-        MEDTICKET
-      </h1>
+    <div className="flex w-full justify-center bg-black">
+      <WaveHeader />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
