@@ -3,40 +3,40 @@ import logo from "../assets/logowaves.svg"
 
 const WaveHeader = () => {
   return (
-    <div className="relative w-full h-[180px] bg-[#b8a7f5] overflow-hidden">
+    <div className="relative w-full h-[80px] bg-[#A294F9] overflow-hidden">
       <Wave
-        fill="red"
+        fill="#F5F5F5"
         paused={false}
         className="absolute bottom-0 w-full"
         options={{
-          height: 40,
-          amplitude: 30,
-          speed: 0.15,
+          height: 130,
+          amplitude: 20,
+          speed: 0.1,
           points: 3,
         }}
       />
 
       <Wave
-        fill="blue"
+        fill="#F5F5F5"
         paused={false}
         className="absolute bottom-0 w-full opacity-70"
         options={{
-          height: 50,
-          amplitude: 25,
-          speed: 0.2,
-          points: 5,
+          height: 130,
+          amplitude: 15,
+          speed: 0.1,
+          points: 4,
         }}
       />
 
       <Wave
-        fill="purple"
+        fill="#F5F5F5"
         paused={false}
         className="absolute bottom-0 w-full opacity-70"
         options={{
-          height: 50,
-          amplitude: 25,
-          speed: 0.2,
-          points: 5,
+          height: 130,
+          amplitude: 10,
+          speed: 0.1,
+          points: 2,
         }}
       />
 
